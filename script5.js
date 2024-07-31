@@ -1,0 +1,10 @@
+let arr=[1,2,3,4,4,4,4,4,4,5,6,7,8];
+let myset=new Set(arr);
+console.log(myset);
+let set=new Set();
+set.add(1);
+set.add(2);
+set.add({a:1,b:2});
+set.add("Some text");
+console.log(set);
+console.log(set.has(1));
